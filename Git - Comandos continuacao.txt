@@ -1,0 +1,25 @@
+git clone git@github.com:lcolodete/vota_prato.git // baixa o branch master
+
+git branch -r // ve a lista de branches remotos
+git fetch	// permite o merge com branches remotos
+git merge master origin/teste // traz para master as mudanças do branch remoto chamado teste
+
+git checkout -b testelocal origin/teste // baixa o branch remoto origin/teste e da o nome local de testelocal
+
+// Começar novo projeto. É preciso criar um novo repositorio no github
+mkdir brincando_com_testes
+git init
+vim README
+git add README
+git commit -m "arquivo README"
+git push origin master
+
+/************
+
+git add . // adiciona todos os arquivos novos ou alterados
+git commit -m "mensagem" // comita todas as alteracoes pendentes
+git push // envia para repositorio remoto
+
+/*************
+
+gitorious é um servidor git (alternativa para o github)

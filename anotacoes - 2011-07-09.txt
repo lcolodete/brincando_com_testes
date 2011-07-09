@@ -1,0 +1,3 @@
+$LOAD_PATH << File.join(File.dirname(__FILE__)) // adiciona o diretorio corrente no loadPath
+
+$LOAD_PATH << File.join(File.dirname(__FILE__), "..", "/diretorio_desejado") // adiciona o diretorio informado no loadPath
