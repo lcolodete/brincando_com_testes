@@ -1,0 +1,11 @@
+source "http://rubygems.org"
+gem 'rspec'
+gem 'cucumber'
+gem 'factory_girl'
+gem 'capybara'
+gem 'database_cleaner'
+gem 'cucumber-rails'
+gem 'cucumber'
+gem 'spork'
+gem 'launchy'
+gem 'selenium'
